@@ -1,0 +1,39 @@
+.photo-modal-container {
+  position: fixed;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.photo-modal {
+  background-color: rgb(254, 254, 254);
+  padding: 20px;
+  border: 1px solid rgb(136, 136, 136);
+  width: 600px;
+  height: 660px;
+  position: absolute;
+  inset: 0px;
+  margin: auto;
+}
+
+.photomodal-close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.photomodal-close-btn:hover,
+.photomodal-close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.photomodal-slider {
+  z-index: 3;
+}

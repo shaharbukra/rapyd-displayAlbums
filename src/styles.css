@@ -1,0 +1,20 @@
+* {
+  --font-color: "black";
+  --background-color: white;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  color: var(--font-color);
+  background-color: var(--background-color);
+}
+.theme-light {
+  --font-color: "black";
+  --background-color: white;
+}
+.theme-dark {
+  --font-color: white;
+  --background-color: black;
+}
